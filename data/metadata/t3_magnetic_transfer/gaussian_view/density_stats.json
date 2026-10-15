@@ -1,0 +1,9 @@
+{
+  "calculation": "exact population mean/std over source Gaussian grids",
+  "count": 142912000,
+  "rho_max_all_train_grids": 21.260133743286133,
+  "rho_mean": 0.5685795317588551,
+  "rho_min_all_train_grids": -0.88278728723526,
+  "rho_std": 1.455726983558255,
+  "source_split": "NSP train parents only"
+}

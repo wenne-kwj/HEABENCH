@@ -1,0 +1,37 @@
+{
+  "constraints": {
+    "encut_eV": 550.0,
+    "expected_count": 3109,
+    "required_complete_stages": [
+      "relax",
+      "static",
+      "band"
+    ],
+    "required_files": [
+      "static/CHGCAR",
+      "static/DOSCAR",
+      "band/EIGENVAL"
+    ]
+  },
+  "ispin_counts": {
+    "1": 2222,
+    "2": 887
+  },
+  "manifest_count": 3109,
+  "schema": "hea-property-benchmark-v3-proxy",
+  "source_counts": {
+    "3d": 163,
+    "3d_mag": 111,
+    "4d": 15,
+    "all_is_is_band": 534,
+    "all_opt_energy_band": 1296,
+    "fe_all": 104,
+    "new_addition": 886
+  },
+  "split_counts": {
+    "test": 311,
+    "train": 2487,
+    "validation": 311
+  },
+  "structure_shard_count": 3109
+}

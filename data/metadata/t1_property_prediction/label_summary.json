@@ -1,0 +1,62 @@
+{
+  "N_EF_states_per_eV_atom": {
+    "count": 3109,
+    "max": 3.967866973684212,
+    "mean": 1.0102913448024224,
+    "median": 0.9436476911999999,
+    "min": 0.16076089009009006,
+    "p01": 0.35114025083720446,
+    "p05": 0.5255049371872392,
+    "p95": 1.804626830173745,
+    "p99": 2.334840191050692
+  },
+  "counts": {
+    "band_fingerprint_ready": 3109,
+    "band_ready": 3109,
+    "dos_ready": 3109,
+    "formation_ready": 3035,
+    "label_ready": 3035,
+    "line_mode_path_is_metal": 3109,
+    "v1_ready": 3109
+  },
+  "failure_counts": {
+    "composition_potcar_mismatch": 74,
+    "missing_potcar_reference": 74
+  },
+  "formation_energy_internal_eV_per_atom": {
+    "count": 3035,
+    "max": 3.1024378244250004,
+    "mean": -0.00955732026702083,
+    "median": 0.024143208099999924,
+    "min": -3.0703111906555556,
+    "p01": -1.1937357179280004,
+    "p05": -0.3849593228699998,
+    "p95": 0.2743028902299994,
+    "p99": 0.4033993540869995
+  },
+  "line_mode_path_gap_eV": {
+    "count": 3109,
+    "max": 0.0,
+    "mean": 0.0,
+    "median": 0.0,
+    "min": 0.0,
+    "p01": 0.0,
+    "p05": 0.0,
+    "p95": 0.0,
+    "p99": 0.0
+  },
+  "outputs": {
+    "dos_grid": "dos_grid.json",
+    "labels_csv": "labels.csv",
+    "labels_npz": "labels.npz",
+    "reference_energy_audit": "reference_energy_audit.json"
+  },
+  "row_count": 3109,
+  "schema": "hea-property-benchmark-v1-labels",
+  "split_label_ready_counts": {
+    "": 0,
+    "test": 300,
+    "train": 2429,
+    "validation": 306
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "density_stats": {
+    "calculation": "exact streaming population mean/std over extracted float32 values",
+    "count": 653312000,
+    "rho_max_all_splits": 19.456401824951172,
+    "rho_mean": 0.6578862128221978,
+    "rho_min_all_splits": -1.3137298822402954,
+    "rho_std": 1.4490883415676254,
+    "source_split": "NSP train only"
+  },
+  "nsp_parents": 1993,
+  "nsp_sites": 199300,
+  "nsp_sp_overlap_counts": {
+    "distance_fingerprint_1e-2": 0,
+    "distance_fingerprint_1e-4": 0,
+    "ordered_structure_sha256": 0,
+    "static_poscar_sha256": 0
+  },
+  "nsp_split_counts": {
+    "test": 199,
+    "train": 1595,
+    "validation": 199
+  },
+  "schedule_full_coverage_every_5_epochs": true,
+  "schedule_shape": [
+    50,
+    1595,
+    20
+  ],
+  "source_data_modified": false,
+  "sp_label_stats_by_split": {
+    "test": {
+      "active_fraction_0p1": 0.48218045112781954,
+      "cell_abs_mean_muB": 33.620697021484375,
+      "cell_mean_muB": 33.5880126953125,
+      "cell_std_muB": 36.370521545410156,
+      "parents": 133,
+      "site_abs_mean_muB": 0.5167785882949829,
+      "site_max_abs_muB": 3.5339999198913574,
+      "site_mean_muB": 0.33428865671157837,
+      "site_std_muB": 0.8707126975059509,
+      "sites": 13300
+    },
+    "train": {
+      "active_fraction_0p1": 0.5105,
+      "cell_abs_mean_muB": 32.92097854614258,
+      "cell_mean_muB": 32.90509033203125,
+      "cell_std_muB": 34.066829681396484,
+      "parents": 620,
+      "site_abs_mean_muB": 0.5315438508987427,
+      "site_max_abs_muB": 3.8550000190734863,
+      "site_mean_muB": 0.32619616389274597,
+      "site_std_muB": 0.8912091851234436,
+      "sites": 62000
+    },
+    "validation": {
+      "active_fraction_0p1": 0.5683458646616542,
+      "cell_abs_mean_muB": 39.38261413574219,
+      "cell_mean_muB": 39.38238525390625,
+      "cell_std_muB": 35.26839828491211,
+      "parents": 133,
+      "site_abs_mean_muB": 0.6049000024795532,
+      "site_max_abs_muB": 3.5769999027252197,
+      "site_mean_muB": 0.38987186551094055,
+      "site_std_muB": 0.9392203688621521,
+      "sites": 13300
+    }
+  },
+  "sp_parents": 886,
+  "sp_sites": 88600,
+  "sp_split_counts": {
+    "test": 133,
+    "train": 620,
+    "validation": 133
+  },
+  "structure_patch_mean_atoms_parent_mean": 22.96702458605118,
+  "valid": true
+}

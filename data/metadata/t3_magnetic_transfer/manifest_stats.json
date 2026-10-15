@@ -1,0 +1,45 @@
+{
+  "nsp_duplicate_rows": 347,
+  "nsp_raw_source_counts": {
+    "3D": 510,
+    "is_is_band": 534,
+    "opt_energy_band": 1296
+  },
+  "nsp_sp_overlap_counts": {
+    "distance_fingerprint_1e-2": 0,
+    "distance_fingerprint_1e-4": 0,
+    "ordered_structure_sha256": 0,
+    "static_poscar_sha256": 0
+  },
+  "nsp_split_counts": {
+    "test": 199,
+    "train": 1595,
+    "validation": 199
+  },
+  "nsp_unique_parents": 1993,
+  "nsp_unique_source_counts": {
+    "3D": 163,
+    "is_is_band": 534,
+    "opt_energy_band": 1296
+  },
+  "schema_version": 1,
+  "sp_cell_moment": {
+    "abs_mean_muB": 33.99598693847656,
+    "max_abs_muB": 188.81629943847656,
+    "mean_muB": 33.97993087768555,
+    "std_muB": 34.678897857666016
+  },
+  "sp_parents": 886,
+  "sp_site_moment": {
+    "abs_mean_muB": 0.5403391122817993,
+    "active_fraction_0p1": 0.5149322799097066,
+    "max_abs_muB": 3.8550000190734863,
+    "mean_muB": 0.3369695246219635,
+    "std_muB": 0.8958388566970825
+  },
+  "sp_split_counts": {
+    "test": 133,
+    "train": 620,
+    "validation": 133
+  }
+}

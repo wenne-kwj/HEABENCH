@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "heabench"
+version = "0.1.0.dev0"
+description = "HEABench paired structure and electronic-field dataset benchmarks"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Scientific/Engineering :: Chemistry",
+]
+dependencies = ["numpy>=1.26", "torch>=2.0"]
+
+[project.optional-dependencies]
+t1 = ["ase>=3.22", "scipy>=1.10"]
+retrieval = ["ase>=3.22", "easydict>=1.10", "h5py>=3.8", "scipy>=1.10"]
+dev = ["heabench[t1,retrieval]"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["property_prediction*", "hea_retrieval*", "hea_magnetic_transfer*"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100

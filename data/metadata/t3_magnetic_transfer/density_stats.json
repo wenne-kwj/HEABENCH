@@ -1,0 +1,9 @@
+{
+  "calculation": "exact streaming population mean/std over extracted float32 values",
+  "count": 653312000,
+  "rho_max_all_splits": 19.456401824951172,
+  "rho_mean": 0.6578862128221978,
+  "rho_min_all_splits": -1.3137298822402954,
+  "rho_std": 1.4490883415676254,
+  "source_split": "NSP train only"
+}

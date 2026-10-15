@@ -1,0 +1,29 @@
+{
+  "charge": {
+    "conversion": "raw / cell_volume_A3",
+    "grid_order": "Fortran (x fastest)",
+    "interpolation": "periodic trilinear in fractional coordinates",
+    "magnetization": "separate rho_magnetization array for ISPIN=2; zeros otherwise",
+    "physical_unit": "electrons per Angstrom^3",
+    "points_per_patch": 4096,
+    "raw_unit": "electrons per FFT grid point",
+    "source": "VASP CHGCAR total grid"
+  },
+  "coordinate_convention": "row-vector cell in Angstrom; local coordinates Cartesian Angstrom relative to pair midpoint",
+  "geometry_state": "static_final",
+  "neighbor_selection": "natural_16nn; periodic images; stable key distance, neighbor Z, atom index, image shift",
+  "pair_identity": "pair_id is canonical unordered (i,j,shift); view_id preserves direction",
+  "retrieval": {
+    "candidates_per_direction": 11,
+    "negative": 10,
+    "positive": 1,
+    "same_split_only": true
+  },
+  "schema_version": "hea-local-retrieval-v1",
+  "splits": {
+    "test": 244,
+    "train": 1957,
+    "unit": "parent",
+    "validation": 245
+  }
+}

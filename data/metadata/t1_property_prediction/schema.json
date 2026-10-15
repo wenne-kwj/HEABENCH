@@ -1,0 +1,52 @@
+{
+  "identity_key": "normalized initial POSCAR SHA-256",
+  "sample_key": "dataset_entry_id from proxy manifest",
+  "schema": "hea-property-benchmark-v3-proxy",
+  "split_policy": "fixed once over all 3109 qualified samples; target masks do not redefine splits",
+  "structure_npz": {
+    "cell": "float32 [3,3] row-vector lattice in Angstrom",
+    "composition_count": "uint16 [M]",
+    "composition_fraction": "float32 [M]",
+    "composition_z": "uint8 [M] unique atomic numbers",
+    "frac": "float32 [N,3] fractional positions",
+    "r": "float32 [N,3] Cartesian positions in Angstrom",
+    "z": "uint8 [N] atomic numbers"
+  },
+  "targets": {
+    "formation_energy_internal_eV_per_atom": {
+      "shape": [],
+      "unit": "eV/atom",
+      "definition": "internal formation-energy proxy"
+    },
+    "N_EF_states_per_eV_atom": {
+      "shape": [],
+      "unit": "states/(eV atom)",
+      "definition": "total DOS at the static Fermi energy per atom"
+    },
+    "fermi_crossing_count": {
+      "shape": [],
+      "unit": "count",
+      "definition": "spin-resolved bands with a segment-local crossing of the static Fermi energy"
+    },
+    "fermi_crossing_event_count": {
+      "shape": [],
+      "unit": "count",
+      "definition": "deduplicated adjacent-point crossing events within line-path segments"
+    },
+    "fermi_crossing_slope_eV_A": {
+      "shape": [],
+      "unit": "eV*angstrom",
+      "definition": "median absolute dE/dk over deduplicated static-Fermi crossing events"
+    },
+    "dos_curve_E_minus_EF_states_per_eV_atom": {
+      "shape": [1001],
+      "unit": "states/(eV atom)",
+      "definition": "DOS on the common E-E_F grid from -10 to 10 eV"
+    },
+    "near_fermi_band_energies_E_minus_EF_eV": {
+      "shape": [80, 16],
+      "unit": "eV",
+      "definition": "16 near-Fermi spin-resolved bands resampled separately over line-path segments"
+    }
+  }
+}

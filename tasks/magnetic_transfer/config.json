@@ -1,0 +1,17 @@
+{
+  "pretraining": {
+    "seed": 20260916,
+    "epochs": 50,
+    "batch_size": 16,
+    "learning_rate": 0.0002,
+    "temperature": 0.07,
+    "embedding_dim": 256
+  },
+  "transfer": {
+    "seed": 7,
+    "budgets": [50, 300, 620],
+    "epochs": 100,
+    "encoder_learning_rate": 0.0001,
+    "head_learning_rate": 0.0003
+  }
+}

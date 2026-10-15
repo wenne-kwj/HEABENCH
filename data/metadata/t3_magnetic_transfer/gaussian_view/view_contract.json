@@ -1,0 +1,14 @@
+{
+  "schema": "hea-task3-sgauss-view-v1",
+  "status": "complete",
+  "field_source": "periodic species-weighted Gaussian atomic field; no DFT charge",
+  "gaussian_root": "../../t1_property_prediction/fields/gaussian_zval_56x40x40_sigma0p35_v1",
+  "parents": 1993,
+  "train_parents": 1595,
+  "mapping_coverage": 1.0,
+  "mapping_key": "frozen exact-structure correspondence",
+  "site_sampling": "same 4096 Cartesian atom-centred offsets as S-DFT; periodic trilinear interpolation",
+  "normalization": "train-only population standardization",
+  "gaussian_sigma_A": 0.35,
+  "gaussian_weights": "per-element VASP ZVAL"
+}

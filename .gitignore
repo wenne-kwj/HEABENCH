@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Local environments and editors
+.venv/
+.venv-*/
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Large benchmark inputs and outputs
+data/*
+!data/README.md
+!data/registry.json
+!data/metadata/
+!data/metadata/**
+artifacts/*
+!artifacts/README.md
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
+*.h5
+*.hdf5
+*.extxyz
+*.traj
+*.vasp
+CHGCAR*
+OUTCAR*
+WAVECAR*
+*.log
+*.pid
+_RUNNING
+_SUCCESS
+_FAILED
+!data/metadata/t3_magnetic_transfer/gaussian_view/_SUCCESS
+
+# Third-party checkouts are fetched, not vendored
+third_party/*
+!third_party/README.md
+!third_party/licenses/
+!third_party/licenses/**
+
+# Native build outputs
+*.so
+*.o
+*.a
+*.whl
+CMakeFiles/

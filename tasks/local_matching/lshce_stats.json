@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "data_root": "data/t2_retrieval",
+  "split": "train",
+  "patch_count": 31312,
+  "charge_shard_count": 77,
+  "uniform_points": 3968,
+  "focused_points": 128,
+  "cutoff_A": 4.5,
+  "sphere_volume_A3": 381.7035074111598,
+  "rho_unit": "e/A^3",
+  "rho_ref_definition": "sqrt(mean(clamp_min(rho,0)^2)) over all train volume points",
+  "rho_ref": 1.3267460556547575,
+  "charge_reference_e": 506.4236228873428,
+  "physical_feature_names": [
+    "total_charge_e",
+    "log1p_charge_over_reference",
+    "radial_moment_1",
+    "radial_moment_2",
+    "radial_moment_3",
+    "radial_moment_4",
+    "volume_density_rms_over_reference",
+    "log1p_density_max_over_reference"
+  ],
+  "physical_mean": [
+    226.6437189447821,
+    0.3669989217728082,
+    0.7489530040932906,
+    0.5988687173042293,
+    0.49894059215525827,
+    0.4274608983216363,
+    0.9602165628486208,
+    2.364468168447994
+  ],
+  "physical_std": [
+    55.32528184603545,
+    0.0758590133430638,
+    0.016482694031432387,
+    0.021885036703547734,
+    0.023576938614691748,
+    0.023826170272858358,
+    0.2792608870972618,
+    0.3273018773132689
+  ],
+  "raw_density_min": -1.1517434120178223,
+  "raw_density_max": 19.355560302734375,
+  "raw_density_negative_count": 1574,
+  "raw_density_value_count": 128253952,
+  "raw_density_negative_fraction": 1.2272526307805315e-05,
+  "negative_policy": "clamp total valence density to zero inside LSHCE",
+  "max_patches": null
+}

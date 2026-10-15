@@ -1,0 +1,16 @@
+{
+  "expected_split_counts": {
+    "test": 244,
+    "train": 1957,
+    "validation": 245
+  },
+  "geometry_state": "static_final",
+  "parent_count": 2446,
+  "source_manifest_sha256": "de82104b0b4f8d615afe8261d83fdd35c24cb95700339b3d6266616b8f5aeab6",
+  "source_splits_sha256": "49bb7de266f6ccc27fb92fe69e4a25215bdc9da1891964eadd15e4ecc6f69264",
+  "split_counts": {
+    "test": 244,
+    "train": 1957,
+    "validation": 245
+  }
+}

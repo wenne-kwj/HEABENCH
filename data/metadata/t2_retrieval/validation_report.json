@@ -1,0 +1,17 @@
+{
+  "anchor_count": 39136,
+  "candidate_rows": 860992,
+  "charge_values_checked": 160301056,
+  "checked_structure_shards": 77,
+  "errors": [],
+  "pair_catalog_rows": 3913600,
+  "parent_count": 2446,
+  "passed": true,
+  "patch_count": 39136,
+  "split_counts": {
+    "test": 244,
+    "train": 1957,
+    "validation": 245
+  },
+  "validated_at_utc": "20260904T052820Z"
+}
