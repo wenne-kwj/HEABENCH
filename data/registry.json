@@ -9,9 +9,12 @@
       "approx_unpacked_gb": 6.6,
       "directory": "t1_property_prediction",
       "population": 3109,
-      "split_counts": {"train": 2487, "validation": 311, "test": 311},
+      "split_counts": {
+        "train": 2487,
+        "validation": 311,
+        "test": 311
+      },
       "public_url": null,
-      "archive_sha256": null,
       "status": "awaiting_public_upload"
     },
     {
@@ -22,9 +25,12 @@
       "approx_unpacked_gb": 3.2,
       "directory": "t2_retrieval",
       "population": 2446,
-      "split_counts": {"train": 1957, "validation": 245, "test": 244},
+      "split_counts": {
+        "train": 1957,
+        "validation": 245,
+        "test": 244
+      },
       "public_url": null,
-      "archive_sha256": null,
       "status": "awaiting_public_upload"
     },
     {
@@ -34,13 +40,23 @@
       "archive_name": "heabench_t3_magnetic_transfer_v1.tar.gz",
       "approx_unpacked_gb": 3.4,
       "directory": "t3_magnetic_transfer",
-      "populations": {"nsp": 1993, "sp": 886},
+      "populations": {
+        "nsp": 1993,
+        "sp": 886
+      },
       "split_counts": {
-        "nsp": {"train": 1595, "validation": 199, "test": 199},
-        "sp": {"train": 620, "validation": 133, "test": 133}
+        "nsp": {
+          "train": 1595,
+          "validation": 199,
+          "test": 199
+        },
+        "sp": {
+          "train": 620,
+          "validation": 133,
+          "test": 133
+        }
       },
       "public_url": null,
-      "archive_sha256": null,
       "status": "awaiting_public_upload"
     }
   ]

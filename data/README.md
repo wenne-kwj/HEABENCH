@@ -1,7 +1,8 @@
 # HEABench reference data layouts
 
-The numerical dataset is released separately from this small code package.
-This directory documents the prepared layouts consumed by the reference
+The complete numerical dataset is distributed separately from this code
+package. Its public download links will be provided after anonymous review
+has concluded. This directory documents the prepared layouts consumed by the reference
 loaders. `registry.json` records dataset versions, split sizes, and expected
 directories, while `metadata/` contains sanitized schemas and indexes without
 workstation or raw-calculation paths.
@@ -34,9 +35,11 @@ prepared. The primary dataset remains useful independently of these exact
 views, and users may construct alternative preprocessing pipelines for their
 own research questions.
 
-The anonymous review package deliberately leaves external URLs unset in
-`registry.json`. No account name or public dataset URL is embedded in this
-repository.
+During anonymous review, full-dataset download URLs remain unset in
+`registry.json`. The repository provides split metadata and anonymized sample
+materials; these do not constitute the complete training bundles. Public
+links, the full preprocessing workflow, and environment installation
+instructions will be provided after anonymous review has concluded.
 
 ## Reference loader inputs
 
@@ -62,6 +65,7 @@ Install one locally supplied bundle without a network request:
 python scripts/download_data.py --task t1_property_prediction --archive /path/to/bundle.tar.gz
 ```
 
-The compact source release intentionally omits long internal raw-to-view
-builders. The code is provided as a concise usage reference; creating new task
-views from raw calculations is a separate dataset-processing workflow.
+This code release corresponds to the original manuscript; the additional
+rebuttal experiments have not yet been integrated. The full raw-to-view
+preprocessing workflow and environment installation instructions are deferred
+to the public release after anonymous review.

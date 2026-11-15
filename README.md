@@ -34,15 +34,25 @@ prediction with limited labels and structure-only inference.
 
 ## Repository Status
 
-This repository accompanies an anonymous conference submission. It contains
-compact reference loaders, training entry points, benchmark configurations,
-and frozen metadata.
+This repository accompanies an anonymous conference submission. The current
+code corresponds to the experiments in the original manuscript and includes
+reference loaders, training entry points, benchmark configurations, and frozen
+metadata. Additional experiments conducted for the rebuttal have not yet been
+integrated into this code release; the task documentation and configurations
+therefore describe the original version.
+
+During anonymous review, we provide this reference code, split metadata,
+anonymized raw-data examples, and visualizations. Public download links for
+the complete task-specific datasets, the full preprocessing workflow, and
+environment installation instructions will be made available after anonymous
+review has concluded.
 
 ## Data
 
-Processed arrays are distributed separately. Bundle names, schemas, and split
-files are documented in [`data/registry.json`](data/registry.json) and
-[`data/README.md`](data/README.md).
+The complete processed arrays are distributed separately, with public
+download links deferred until anonymous review has concluded. Bundle names,
+schemas, and split files are documented in [`data/registry.json`](data/registry.json)
+and [`data/README.md`](data/README.md).
 
 | Dataset | Train | Validation | Test | Split unit |
 |---|---:|---:|---:|---|
@@ -54,10 +64,37 @@ files are documented in [`data/registry.json`](data/registry.json) and
 All views and sites from one parent structure remain in the same split. Each
 task uses its own frozen split.
 
+## Structure Visualization
+
+Open the self-contained HTML directly, or obtain `structure_gallery.zip`
+from [GitHub Releases](https://github.com/wenne-kwj/HEABENCH/releases), extract it, and open
+[`visualization/structures.html`](visualization/structures.html) in a browser.
+It contains 3,109 relaxed structures and an anonymous sample catalog, with all
+page resources embedded for offline viewing.
+
+## Anonymous Raw-Data Examples
+
+The three complete anonymized VASP sample archives are `0001.tar.gz`,
+`0002.tar.gz`, and `0003.tar.gz`. See [`data/examples`](data/examples/README.md)
+for their contents and [GitHub Releases](https://github.com/wenne-kwj/HEABENCH/releases) for archive distribution.
+They include original-grid charge density and the available relaxation,
+static, and band calculation outputs.
+
+## NSP/SP Calculation Example
+
+The [NSP/SP example](nsp_sp/README.md) contains a spin-polarized static calculation,
+a fixed-structure non-spin-polarized calculation, and non-spin-polarized relaxation
+with a final static calculation. The [PNG comparison](nsp_sp/png/charge_density_comparison.png)
+shows the aligned relaxed-NSP charge density minus the SP reference.
+The combined archive is `nsp_sp_example.tar.gz`, distributed through
+[GitHub Releases](https://github.com/wenne-kwj/HEABENCH/releases).
+
 ## Reproducibility
 
-The task implementations are reference code for using the released data. Core
-comparison logic is kept explicit:
+The task implementations describe the original manuscript experiments using
+prepared task inputs. The full preprocessing workflow and environment
+installation instructions will accompany the post-review public release.
+Core comparison logic is kept explicit:
 
 - Global probing aligns predictions by sample ID and common masks. A paired
   gain is `error(reference) - error(comparison)`, so positive values indicate
@@ -72,3 +109,16 @@ Task-specific commands and settings are provided in
 [`tasks/global_probing`](tasks/global_probing),
 [`tasks/local_matching`](tasks/local_matching), and
 [`tasks/magnetic_transfer`](tasks/magnetic_transfer).
+
+## Licenses and downloads
+
+Original HEABench code is licensed under [MIT](LICENSE). Scientific data,
+metadata and figures are licensed under [CC BY 4.0](LICENSE-DATA.txt).
+See [LICENSING.md](LICENSING.md) for scope and [third-party notices](third_party/README.md)
+for upstream terms, including ComFormer/AIRS GPLv3 and ALIGNN NIST terms.
+
+Large sample archives are Release assets and are not stored in Git history.
+The [asset inventory](release_assets/manifest.csv) lists archive names,
+sizes and distribution paths.
+The offline gallery and raw examples are preview materials; they do not replace
+the full task-specific numerical bundles described in `data/registry.json`.

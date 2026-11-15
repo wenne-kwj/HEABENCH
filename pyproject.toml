@@ -7,6 +7,7 @@ name = "heabench"
 version = "0.1.0.dev0"
 description = "HEABench paired structure and electronic-field dataset benchmarks"
 readme = "README.md"
+license = {file = "LICENSE"}
 requires-python = ">=3.10"
 classifiers = [
   "Development Status :: 3 - Alpha",

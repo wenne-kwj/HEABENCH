@@ -7,9 +7,7 @@
   },
   "nsp_sp_overlap_counts": {
     "distance_fingerprint_1e-2": 0,
-    "distance_fingerprint_1e-4": 0,
-    "ordered_structure_sha256": 0,
-    "static_poscar_sha256": 0
+    "distance_fingerprint_1e-4": 0
   },
   "nsp_split_counts": {
     "test": 199,

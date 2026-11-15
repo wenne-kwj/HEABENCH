@@ -54,14 +54,8 @@ fetch_pinned \
 fetch_pinned \
   "ComFormer/AIRS" \
   "https://github.com/divelab/AIRS.git" \
-  "4a16c68940dd97a51f1dc32725ed36eed38322dd" \
+  "4a16c68a7da707c521019067dec51c227c10de45" \
   "${third_party_root}/ComFormer"
-
-fetch_pinned \
-  "MCDC 3D-CNN" \
-  "https://github.com/clemson-mcdc/3D-CNN_Elastic_Constants.git" \
-  "d94657861aeb6fcdd7aee0398068c871658edd4b" \
-  "${third_party_root}/ElasticConstants3DCNN"
 
 fetch_pinned \
   "EDBench" \
