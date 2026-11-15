@@ -64,30 +64,17 @@ and [`data/README.md`](data/README.md).
 All views and sites from one parent structure remain in the same split. Each
 task uses its own frozen split.
 
-## Structure Visualization
+## Examples and visualization
 
-Open the self-contained HTML directly, or obtain `structure_gallery.zip`
-from [GitHub Releases](https://github.com/wenne-kwj/HEABENCH/releases), extract it, and open
-[`visualization/structures.html`](visualization/structures.html) in a browser.
-It contains 3,109 relaxed structures and an anonymous sample catalog, with all
-page resources embedded for offline viewing.
+Preview materials are collected in [`examples/`](examples):
 
-## Anonymous Raw-Data Examples
+- [Structure gallery](examples/structures.html): 3,109 relaxed structures; open the self-contained HTML locally or download the [offline ZIP](https://github.com/wenne-kwj/HEABENCH/releases/download/review-materials-v1/structure_gallery.zip).
+- [NSP/SP comparison](examples/charge_density_comparison.png): download the [calculation package](https://github.com/wenne-kwj/HEABENCH/releases/download/review-materials-v1/nsp_sp_example.tar.gz) for SP, fixed-structure NSP, and relaxed NSP calculations.
+- Anonymized raw VASP examples: [0001](https://github.com/wenne-kwj/HEABENCH/releases/download/review-materials-v1/0001.tar.gz), [0002](https://github.com/wenne-kwj/HEABENCH/releases/download/review-materials-v1/0002.tar.gz), and [0003](https://github.com/wenne-kwj/HEABENCH/releases/download/review-materials-v1/0003.tar.gz), including native-grid charge density and available relaxation, static, and band outputs.
 
-The three complete anonymized VASP sample archives are `0001.tar.gz`,
-`0002.tar.gz`, and `0003.tar.gz`. See [`data/examples`](data/examples/README.md)
-for their contents and [GitHub Releases](https://github.com/wenne-kwj/HEABENCH/releases) for archive distribution.
-They include original-grid charge density and the available relaxation,
-static, and band calculation outputs.
-
-## NSP/SP Calculation Example
-
-The [NSP/SP example](nsp_sp/README.md) contains a spin-polarized static calculation,
-a fixed-structure non-spin-polarized calculation, and non-spin-polarized relaxation
-with a final static calculation. The [PNG comparison](nsp_sp/png/charge_density_comparison.png)
-shows the aligned relaxed-NSP charge density minus the SP reference.
-The combined archive is `nsp_sp_example.tar.gz`, distributed through
-[GitHub Releases](https://github.com/wenne-kwj/HEABENCH/releases).
+The PNG shows aligned relaxed-NSP charge density minus SP, including structural
+relaxation effects; the fixed-structure NSP calculation is supplied separately.
+Raw-example identifiers are independent of the shuffled gallery identifiers.
 
 ## Reproducibility
 
@@ -118,7 +105,6 @@ See [LICENSING.md](LICENSING.md) for scope and [third-party notices](third_party
 for upstream terms, including ComFormer/AIRS GPLv3 and ALIGNN NIST terms.
 
 Large sample archives are Release assets and are not stored in Git history.
-The [asset inventory](release_assets/manifest.csv) lists archive names,
-sizes and distribution paths.
+The [example index](examples/manifest.csv) lists sample paths and downloads.
 The offline gallery and raw examples are preview materials; they do not replace
 the full task-specific numerical bundles described in `data/registry.json`.

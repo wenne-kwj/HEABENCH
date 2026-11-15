@@ -3,7 +3,7 @@
 | Material | License |
 |---|---|
 | Original HEABench code in `src/`, `tasks/`, and `scripts/`; configuration files; original technical documentation; HTML/CSS/JavaScript rendering code | [MIT](LICENSE) |
-| HEABench scientific data and metadata, including `data/metadata/`, raw-data examples, NSP/SP calculation outputs, figures, the gallery catalog and embedded structure data | [CC BY 4.0](LICENSE-DATA.txt) |
+| HEABench scientific data and metadata, including `data/metadata/` and the scientific contents of `examples/` (raw samples, NSP/SP outputs, figures, catalog and embedded structures) | [CC BY 4.0](LICENSE-DATA.txt) |
 | Third-party model implementations and dependencies | Their respective upstream terms; see [the source and license inventory](third_party/README.md) |
 
 Copyright (c) 2026 HEABench contributors. Credit HEABench contributors when

@@ -60,16 +60,9 @@ third_party/*
 *.whl
 CMakeFiles/
 
-# Sample documentation is versioned; large archives are Release assets.
-!data/examples/
-data/examples/*
-!data/examples/README.md
-!data/examples/manifest.csv
-!data/examples/LICENSE-DATA.txt
-!data/examples/ATTRIBUTION.txt
-/nsp_sp/sample/*.tar.gz
-/nsp_sp_example.tar.gz
-/structure_gallery.zip
+# Large examples are distributed as Release assets.
+/examples/**/*.tar.gz
+/examples/*.zip
 
 # Local integrity reports are not release material.
 SHA256SUMS

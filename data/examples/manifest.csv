@@ -1,4 +1,0 @@
-sample_id,archive,bytes,file_count,spin_setting,redacted_outcar_xml_files,unchanged_scientific_files
-0001,0001.tar.gz,110141171,28,NSP,5,20
-0002,0002.tar.gz,54206603,27,SP,5,19
-0003,0003.tar.gz,23235919,27,NSP,5,19
