@@ -1,9 +1,9 @@
 kind,path,setting,download
-raw_sample,samples/0001.tar.gz,NSP,https://github.com/wenne-kwj/HEABENCH/releases/download/review-materials-v1/0001.tar.gz
-raw_sample,samples/0002.tar.gz,SP,https://github.com/wenne-kwj/HEABENCH/releases/download/review-materials-v1/0002.tar.gz
-raw_sample,samples/0003.tar.gz,NSP,https://github.com/wenne-kwj/HEABENCH/releases/download/review-materials-v1/0003.tar.gz
-nsp_sp,nsp_sp/sp.tar.gz,sp,https://github.com/wenne-kwj/HEABENCH/releases/download/review-materials-v1/nsp_sp_example.tar.gz
-nsp_sp,nsp_sp/nsp_fixed.tar.gz,nsp_fixed,https://github.com/wenne-kwj/HEABENCH/releases/download/review-materials-v1/nsp_sp_example.tar.gz
-nsp_sp,nsp_sp/nsp_relaxed.tar.gz,nsp_relaxed,https://github.com/wenne-kwj/HEABENCH/releases/download/review-materials-v1/nsp_sp_example.tar.gz
-figure,charge_density_comparison.png,aligned relaxed NSP minus SP,https://github.com/wenne-kwj/HEABENCH/releases/download/review-materials-v1/nsp_sp_example.tar.gz
-gallery,structures.html,3109 relaxed structures,https://github.com/wenne-kwj/HEABENCH/releases/download/review-materials-v1/structure_gallery.zip
+raw_sample,samples/0001.tar.gz,NSP,https://github.com/wenne-kwj/HEABENCH/blob/main/examples/samples/0001.tar.gz
+raw_sample,samples/0002.tar.gz,SP,https://github.com/wenne-kwj/HEABENCH/blob/main/examples/samples/0002.tar.gz
+raw_sample,samples/0003.tar.gz,NSP,https://github.com/wenne-kwj/HEABENCH/blob/main/examples/samples/0003.tar.gz
+nsp_sp,nsp_sp/sp.tar.gz,sp,https://github.com/wenne-kwj/HEABENCH/blob/main/examples/nsp_sp_example.tar.gz
+nsp_sp,nsp_sp/nsp_fixed.tar.gz,nsp_fixed,https://github.com/wenne-kwj/HEABENCH/blob/main/examples/nsp_sp_example.tar.gz
+nsp_sp,nsp_sp/nsp_relaxed.tar.gz,nsp_relaxed,https://github.com/wenne-kwj/HEABENCH/blob/main/examples/nsp_sp_example.tar.gz
+figure,charge_density_comparison.png,aligned relaxed NSP minus SP,https://github.com/wenne-kwj/HEABENCH/blob/main/examples/nsp_sp_example.tar.gz
+gallery,structures.html,3109 relaxed structures,https://github.com/wenne-kwj/HEABENCH/blob/main/examples/structure_gallery.zip

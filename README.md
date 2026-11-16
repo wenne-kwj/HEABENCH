@@ -66,11 +66,11 @@ task uses its own frozen split.
 
 ## Examples and visualization
 
-Preview materials are collected in [`examples/`](examples):
+Complete sample archives and visualizations are collected in [`examples/`](examples):
 
-- [Structure gallery](examples/structures.html): 3,109 relaxed structures; open the self-contained HTML locally or download the [offline ZIP](https://github.com/wenne-kwj/HEABENCH/releases/download/review-materials-v1/structure_gallery.zip).
-- [NSP/SP comparison](examples/charge_density_comparison.png): download the [calculation package](https://github.com/wenne-kwj/HEABENCH/releases/download/review-materials-v1/nsp_sp_example.tar.gz) for SP, fixed-structure NSP, and relaxed NSP calculations.
-- Anonymized raw VASP examples: [0001](https://github.com/wenne-kwj/HEABENCH/releases/download/review-materials-v1/0001.tar.gz), [0002](https://github.com/wenne-kwj/HEABENCH/releases/download/review-materials-v1/0002.tar.gz), and [0003](https://github.com/wenne-kwj/HEABENCH/releases/download/review-materials-v1/0003.tar.gz), including native-grid charge density and available relaxation, static, and band outputs.
+- [Structure gallery](examples/structures.html): 3,109 relaxed structures; open the self-contained HTML locally or download the [offline ZIP](examples/structure_gallery.zip).
+- [NSP/SP comparison](examples/charge_density_comparison.png): download the [calculation package](examples/nsp_sp_example.tar.gz) for SP, fixed-structure NSP, and relaxed NSP calculations.
+- Anonymized raw VASP examples: [0001](examples/samples/0001.tar.gz), [0002](examples/samples/0002.tar.gz), and [0003](examples/samples/0003.tar.gz), including native-grid charge density and available relaxation, static, and band outputs.
 
 The PNG shows aligned relaxed-NSP charge density minus SP, including structural
 relaxation effects; the fixed-structure NSP calculation is supplied separately.
@@ -104,7 +104,9 @@ metadata and figures are licensed under [CC BY 4.0](LICENSE-DATA.txt).
 See [LICENSING.md](LICENSING.md) for scope and [third-party notices](third_party/README.md)
 for upstream terms, including ComFormer/AIRS GPLv3 and ALIGNN NIST terms.
 
-Large sample archives are Release assets and are not stored in Git history.
+The original complete sample archives are stored in `examples/` using Git LFS.
+Use **Download raw file** on each GitHub file page to obtain the full archive,
+or clone with Git LFS installed. The existing Release downloads are also available.
 The [example index](examples/manifest.csv) lists sample paths and downloads.
 The offline gallery and raw examples are preview materials; they do not replace
 the full task-specific numerical bundles described in `data/registry.json`.
