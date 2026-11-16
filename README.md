@@ -68,7 +68,7 @@ task uses its own frozen split.
 
 Complete sample archives and visualizations are collected in [`examples/`](examples):
 
-- [Structure gallery](examples/structures.html): 3,109 relaxed structures; open the self-contained HTML locally or download the [offline ZIP](examples/structure_gallery.zip).
+- [Structure gallery](examples/structures.html): 3,109 relaxed structures; open the self-contained HTML locally.
 - [NSP/SP comparison](examples/charge_density_comparison.png): download the [calculation package](examples/nsp_sp_example.tar.gz) for SP, fixed-structure NSP, and relaxed NSP calculations.
 - Anonymized raw VASP examples: [0001](examples/samples/0001.tar.gz), [0002](examples/samples/0002.tar.gz), and [0003](examples/samples/0003.tar.gz), including native-grid charge density and available relaxation, static, and band outputs.
 

@@ -6,4 +6,4 @@ nsp_sp,nsp_sp/sp.tar.gz,sp,https://github.com/wenne-kwj/HEABENCH/blob/main/examp
 nsp_sp,nsp_sp/nsp_fixed.tar.gz,nsp_fixed,https://github.com/wenne-kwj/HEABENCH/blob/main/examples/nsp_sp_example.tar.gz
 nsp_sp,nsp_sp/nsp_relaxed.tar.gz,nsp_relaxed,https://github.com/wenne-kwj/HEABENCH/blob/main/examples/nsp_sp_example.tar.gz
 figure,charge_density_comparison.png,aligned relaxed NSP minus SP,https://github.com/wenne-kwj/HEABENCH/blob/main/examples/nsp_sp_example.tar.gz
-gallery,structures.html,3109 relaxed structures,https://github.com/wenne-kwj/HEABENCH/blob/main/examples/structure_gallery.zip
+gallery,structures.html,3109 relaxed structures,https://github.com/wenne-kwj/HEABENCH/blob/main/examples/structures.html

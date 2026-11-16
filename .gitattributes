@@ -2,4 +2,3 @@ examples/samples/0001.tar.gz filter=lfs diff=lfs merge=lfs -text
 examples/samples/0002.tar.gz filter=lfs diff=lfs merge=lfs -text
 examples/samples/0003.tar.gz filter=lfs diff=lfs merge=lfs -text
 examples/nsp_sp_example.tar.gz filter=lfs diff=lfs merge=lfs -text
-examples/structure_gallery.zip filter=lfs diff=lfs merge=lfs -text
